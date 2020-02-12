@@ -1,0 +1,52 @@
+{
+  "name": "jest-progress-bar-reporter",
+  "version": "1.0.14",
+  "description": "Progress bar reporter for Jest",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "jest": "jest",
+    "test": "npm run jest && npm run lint",
+    "lint": "eslint --cache --color --ext .jsx,.js lib example",
+    "example": "cd example/ && jest",
+    "prettier": "prettier --write \"**/*.js\"",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierreroth64/jest-progress-bar-reporter.git"
+  },
+  "keywords": [
+    "jest",
+    "dot",
+    "reporter"
+  ],
+  "author": "Peio Roth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pierreroth64/jest-progress-bar-reporter/issues"
+  },
+  "homepage": "https://github.com/pierreroth64/jest-progress-bar-reporter#readme",
+  "dependencies": {
+    "chalk": "3.0.0",
+    "moment": "2.24.0",
+    "progress": "2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-arpinum": "5.0.0",
+    "eslint-plugin-jest": "23.6.0",
+    "jest": "25.1.0",
+    "prettier": "1.19.1"
+  },
+  "jest": {
+    "testURL": "http://localhost/",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/example/"
+    ]
+  }
+}
