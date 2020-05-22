@@ -1,6 +1,6 @@
 {
   "name": "jest-progress-bar-reporter",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Progress bar reporter for Jest",
   "main": "./lib/index.js",
   "directories": {
