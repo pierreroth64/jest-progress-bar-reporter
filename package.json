@@ -36,11 +36,11 @@
     "progress": "2.0.3"
   },
   "devDependencies": {
-    "eslint": "7.11.0",
+    "eslint": "7.23.0",
     "eslint-config-arpinum": "5.0.0",
-    "eslint-plugin-jest": "24.1.0",
-    "jest": "26.6.0",
-    "prettier": "2.1.2"
+    "eslint-plugin-jest": "24.3.2",
+    "jest": "26.6.3",
+    "prettier": "2.2.1"
   },
   "jest": {
     "testURL": "http://localhost/",
