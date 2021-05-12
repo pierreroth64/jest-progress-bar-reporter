@@ -31,16 +31,16 @@
   },
   "homepage": "https://github.com/pierreroth64/jest-progress-bar-reporter#readme",
   "dependencies": {
-    "chalk": "4.1.0",
+    "chalk": "4.1.1",
     "moment": "2.29.1",
     "progress": "2.0.3"
   },
   "devDependencies": {
-    "eslint": "7.23.0",
+    "eslint": "7.26.0",
     "eslint-config-arpinum": "5.0.0",
-    "eslint-plugin-jest": "24.3.2",
+    "eslint-plugin-jest": "24.3.6",
     "jest": "26.6.3",
-    "prettier": "2.2.1"
+    "prettier": "2.3.0"
   },
   "jest": {
     "testURL": "http://localhost/",
